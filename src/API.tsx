@@ -9,5 +9,4 @@ export const fetchQuizQuestions = async(amount: number, difficulty: Difficulty) 
     const data = await(await fetch(endpoint)).json()
     console.log(data);
     console.log('1');
-    
 }
